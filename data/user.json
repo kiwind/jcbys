@@ -1,0 +1,27 @@
+{
+	"users": [
+        	{
+                        "img":"temp/user1.png",
+                	"mac":"01:06:0A:XX:XX:XX",
+                        "rate":192,
+                        "total":52.1,
+                        "count":100
+        	},
+                {
+                        "img":"temp/user2.png",
+                        "mac":"02:06:0A:XX:XX:XX",
+                        "rate":192,
+                        "total":52.1,
+                        "count":100
+                }
+        ],
+        "black": [
+                {
+                        "img":"temp/user2.png",
+                        "mac":"01:06:0A:XX:XX:XX",
+                        "rate":192,
+                        "total":52.1,
+                        "count":100
+                }
+        ]
+}
