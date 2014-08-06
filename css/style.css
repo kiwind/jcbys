@@ -1,1 +1,5 @@
 @charset "utf-8";
+.index-banner{height:599px;background:#D3E5F1 url(images/index-banner.jpg) no-repeat 50% 0;}
+.index-banner .signup{display:block;width:237px;height:45px;line-height:44px;background-color:#00943D;font-size:36px;color:#FFF;text-align:center;}
+.index-banner .i-b-text{width:450px;padding:50px 0 8px 0;}
+.index-banner .i-b-text p{line-height:25px;color:#2f2a24;font-size:14px;text-indent:2em;}

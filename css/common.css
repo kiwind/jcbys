@@ -10,7 +10,7 @@ img{vertical-align:middle;}
 em,i{font-style:normal;}
 input,select,label{vertical-align:middle;}
 /*Global*/
-a:hover{color:#f60;text-decoration:underline;}
+a:hover{text-decoration:none;}
 .pr{position:relative;}
 .pa{position:absolute;}
 .fl,.fr {display:inline;}
@@ -49,12 +49,23 @@ a.more{font-family:\5b8b\4f53;}
 .f16{font-size:16px;}
 .fwb{font-weight:700;}
 
-.hid-txt{text-indent:100%;white-space:nowrap;overflow:hidden;}
-.line{display:block;width:100%;height:1px;background-color:#E4E4E4;border-top:1px solid #DBDBDB;border-bottom:1px solid #F6F6F6;overflow:hidden;}
-.blankbg{background:#FFF url(http://script.suning.cn/images/ShoppingArea/Common/blankbg.gif) no-repeat 50% 50%;}
-.data-loading{background:#FFF url(http://script.suning.cn/css/ShoppingArea/V8/home/images/loading.gif) no-repeat center;padding:20px 0;}
-/*float center*/
-.floatcenter{ display:block;text-align:center;font-size:0;}
-.floatcenter-item{display:inline-block;*display:inline;*zoom:1;vertical-align:top;font-size:13px;}
-/* 让 chrome 支持 12px 以下的字体 */
-@media screen and (-webkit-min-device-pixel-ratio:0){.sl-floatcenter{-webkit-text-size-adjust:none;}}
+.ico{display:inline-block;}
+.ico-phone{width:18px;height:20px;background:url(images/ico-phone.png) no-repeat 0 0;}
+
+.header{height:136px;background:#FDCBD4 url(images/header-bg.png) no-repeat 50% 0;}
+.index-header{background-color:#8D8FDA;}
+.header .w{position:relative;}
+.header .logo img{margin:5px 0 10px 0;}
+.header .contact{position:absolute;top:20px;right:0;height:116px;}
+.header .contact .c-phone .ico-phone{margin-top:36px;}
+.header .contact .c-phone .phone-number{margin:0 10px 0 5px;}
+.header .contact .c-phone{line-height:90px;font-size:18px;color:#FFF;}
+.header .contact .c-wx{text-align:center;}
+.header .contact .c-wx p{color:#FFF;line-height:24px;}
+
+.menu{height:36px;line-height:36px;background-color:#FB7A8C;}
+.index-menu{background-color:#9B7CD5;}
+.menu a,.menu a:visited{display:inline;float:left;min-width:54px;_width:54px;margin:0 12px;padding:0 10px;font-size:18px;color:#FFF;text-align:center;text-shadow: 1px 1px 1px #090204;}
+.menu a.cur{background-color:#F89424;}
+.index-menu a.cur{background-color:#A4C73B;}
+.menu a:hover{text-decoration:none;color:#FFF;}
