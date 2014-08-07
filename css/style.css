@@ -34,5 +34,27 @@ body{background-color:#F9F0D9;}
 .banner img{max-width:100%;height:auto;}
 .banner .b-mask{position:absolute;width:1000px;height:35px;left:0;bottom:0;background:url(images/b-mask.png) repeat-x 0 0;}
 
-.content{background-color:#FFF;}
-.content .nav{width:202px;margin:0 0 0 10px;}
+.content{min-height:300px;_height:300px;background-color:#FFF;}
+.content .nav{width:202px;margin:30px 0 0 10px;border-top:5px solid #767A7B;}
+.content .nav ul{border-top:1px solid #FFF;}
+.content .nav li{height:60px;line-height:60px;border-bottom:1px solid #A4A6A6;background-color:#F5F5F5;}
+.content .nav li.cur{border-bottom-color:#FB7A8C;background:#FB7A8C url(images/nav-arrow.png) no-repeat 169px 50%;}
+.content .nav li a{display:block;color:#838182;font-size:22px;text-indent:32px;}
+.content .nav li.cur a{color:#FFF;}
+.content-box{width:730px;margin:25px 10px 33px; 0;}
+.content .news-item{margin-bottom:42px;}
+.content .news-item h2{display:inline;float:left;width:600px;line-height:30px;font-size:22px;color:#000;}
+.content .news-item .date{display:inline;float:right;margin-right:8px;line-height:30px;color:#7c7a7b;font-size:14px;font-weight:700;}
+.content .news-item p{margin:8px 0;line-height:20px;font-size:14px;font-family:\5b8b\4f53;color:#494748;}
+.news-detail{padding:4px 0 60px 0;}
+.news-detail h1{font-size:22px;line-height:42px;text-align:center;}
+.news-detail .d-brief{line-height:32px;color:#5B5A5A;font-size:14px;font-weight:700;font-family:\5b8b\4f53;text-align:center;}
+.news-detail .d-brief span{margin:0 12px;}
+.news-detail .n-detail{padding-top:6px;}
+.news-detail .n-detail p{line-height:22px;color:#494748;font-family:\5b8b\4f53;text-indent:2em;}
+.news-detail .n-action{margin-right:10px;padding:22px 0;text-align:right;color:#000;font-family:\5b8b\4f53;}
+.news-detail .n-action li{display:inline-block;}
+.news-detail .n-action a{color:#000;font-family:\5b8b\4f53;}
+.news-detail .n-page .cr{color:#ED271E;}
+.news-detail .n-page li{display:inline;float:left;margin-right:10px;font-family:\5b8b\4f53;}
+.news-detail .n-page a{color:#000;font-family:\5b8b\4f53;}
