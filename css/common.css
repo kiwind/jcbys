@@ -21,7 +21,6 @@ a:hover{text-decoration:none;}
 .vta-m{vertical-align:middle;}
 .w{width:1000px;margin:0 auto;}
 .w1190{width:1190px;margin:0 auto 10px;min-width:1190px;}
-a.more{font-family:\5b8b\4f53;}
 
 .mt10{margin-top:10px;}
 .mt15{margin-top:15px;}
@@ -69,3 +68,10 @@ a.more{font-family:\5b8b\4f53;}
 .menu a.cur{background-color:#F89424;}
 .index-menu a.cur{background-color:#A4C73B;}
 .menu a:hover{text-decoration:none;color:#FFF;}
+
+.footer .bl{height:21px;margin-top:-21px;background:url(images/footer-bg-red.png) repeat-x 0 0;}
+.index-footer .bl{height:24px;margin-top:-24px;background:url(images/footer-bg-blue.png) repeat-x 0 0;}
+.footer .link{padding:40px 0;background-color:#FB7A8C;line-height:20px;color:#FFF;text-align:center;font-family:\5b8b\4f53;}
+.index-footer .link{background-color:#9B7CD5;}
+.footer .link a{font-size:14px;color:#FFF;font-family:\5b8b\4f53;}
+.footer .link span{margin:0 10px;}
