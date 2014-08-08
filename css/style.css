@@ -74,3 +74,35 @@ body{background-color:#F9F0D9;}
 .good-teachers dd h3{font-size:26px;color:#f89424;}
 .good-teachers dd p{padding:6px 0;line-height:26px;font-size:14px;font-family:\5b8b\4f53;color:#acabab;}
 .good-teachers dd p strong{color:#585656;}
+
+.dish-table{width:980px;min-height:320px;_height:320px;margin:0 auto;padding-top:33px;}
+.dish-table select{width:260px;}
+.dish-table table{width:100%;}
+.dish-table table td{border:3px solid #FFF;}
+.dish-table table .c1{background-color:#F16571;}
+.dish-table table .c2{background-color:#FA808B;}
+.dish-table table .c3{background-color:#FA948A;}
+.dish-table table .c4{background-color:#FBBB98;}
+.dish-table table .c5{background-color:#FBD098;}
+.dish-table table .c6{background-color:#FF9B3E;}
+.dish-table table .c7{background-color:#FCB644;}
+.dish-table table .c8{background-color:#FFDD8C;}
+.dish-table thead td{height:67px;text-align:center;color:#FFF;}
+.dish-table .day{font-size:14px;line-height:14px;}
+.dish-table .week-en{font-size:18px;line-height:20px;}
+.dish-table .week-cn{font-size:18px;line-height:18px;}
+.dish-table .ttitle{text-align:center;font-size:18px;color:#FFF;}
+.dish-table tbody td{padding:6px 0;color:#666;line-height:20px;}
+.dish-table tbody p{text-indent:10px;font-family:\5b8b\4f53;}
+.food-list{width:727px;}
+.food-list h3{height:32px;line-height:32px;background-color:#FB7A8C;font-size:18px;color:#FFF;text-indent:12px;}
+.food-list ul{padding:17px 0;}
+.food-list li{height:30px;line-height:30px;padding-left:34px;background:url(images/food-list-ico.png) no-repeat 12px 50%;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+.food-list li a{display:inline;float:left;width:500px;height:30px;color:#8c8989;font-size:14px;font-family:\5b8b\4f53;}
+.food-list li .fdate{display:inline;float:right;padding-right:18px;color:#8c8989;font-size:14px;font-family:\5b8b\4f53;}
+.food-list .pages{margin:20px 0;}
+
+.content-foster{min-height:1404px;_height:1404px;background:#FFF url(images/foster-bg.jpg) no-repeat 130px 56px;}
+.baby-cloud{position:relative;}
+.baby-cloud .b-c-first{position:absolute;}
+.baby-cloud .txt{width:342px;}

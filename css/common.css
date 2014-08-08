@@ -75,3 +75,9 @@ a:hover{text-decoration:none;}
 .index-footer .link{background-color:#9B7CD5;}
 .footer .link a{font-size:14px;color:#FFF;font-family:\5b8b\4f53;}
 .footer .link span{margin:0 10px;}
+
+.pages{line-height:26px;text-align:right;font-family:\5b8b\4f53;}
+.pages a,.pages i,.pages span{display:inline-block;height:26px;}
+.pages a{padding:0 8px;border:1px solid #F7BA94;background-color:#FFF8F8;color:#000;font-family:\5b8b\4f53;}
+.pages a.cur{background-color:#C51B09;color:#FFF;}
+.pages span{margin:0 5px;}
