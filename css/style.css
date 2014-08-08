@@ -58,3 +58,19 @@ body{background-color:#F9F0D9;}
 .news-detail .n-page .cr{color:#ED271E;}
 .news-detail .n-page li{display:inline;float:left;margin-right:10px;font-family:\5b8b\4f53;}
 .news-detail .n-page a{color:#000;font-family:\5b8b\4f53;}
+
+.environment{margin:6px 0 0 0;}
+.environment li{display:inline;float:left;margin:0 16px 74px 37px;padding:4px;border:1px solid #FDCBD4;}
+.environment li img{width:165px;height:171px;}
+
+.teach-goal{width:690px;}
+.teach-goal p{margin-bottom:30px;line-height:30px;text-indent:2em;font-size:14px;color:#343232;}
+
+.good-teachers dl{margin-bottom:35px;padding-bottom:26px;border-bottom:1px solid #D1CDCD;}
+.good-teachers dl.last{border-bottom:0 none;}
+.good-teachers dt{width:276px;height:230px;margin:0 23px 0 0;background:url(images/teacher-bg.jpg) no-repeat 0 0;}
+.good-teachers dt img{width:257px;height:207px;margin:15px 0 0 11px;}
+.good-teachers dd{width:406px;margin-top:-5px;}
+.good-teachers dd h3{font-size:26px;color:#f89424;}
+.good-teachers dd p{padding:6px 0;line-height:26px;font-size:14px;font-family:\5b8b\4f53;color:#acabab;}
+.good-teachers dd p strong{color:#585656;}
