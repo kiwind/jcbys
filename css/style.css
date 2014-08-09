@@ -78,7 +78,8 @@ body{background-color:#F9F0D9;}
 .good-teachers dd p{padding:6px 0;line-height:26px;font-size:14px;font-family:\5b8b\4f53;color:#acabab;}
 .good-teachers dd p strong{color:#585656;}
 
-.dish-table{width:980px;min-height:320px;_height:320px;margin:0 auto;padding-top:33px;}
+.dish-table{position:relative;width:980px;min-height:320px;_height:320px;margin:0 auto;padding-top:33px;}
+.dish-table .dtimg{position:absolute;top:65px;}
 .dish-table select{width:260px;}
 .dish-table table{width:100%;}
 .dish-table table td{border:3px solid #FFF;}
