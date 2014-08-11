@@ -1,7 +1,7 @@
 @charset "utf-8";
 body{background-color:#F9F0D9;}
 .index-banner{height:599px;background:#D3E5F1 url(images/index-banner.jpg) no-repeat 50% 0;}
-.index-banner .signup{display:block;width:237px;height:45px;line-height:44px;background-color:#00943D;font-size:36px;color:#FFF;text-align:center;}
+.index-banner .signup{display:block;width:237px;height:45px;line-height:44px;background-color:#F69601;font-size:36px;color:#FFF;text-align:center;}
 .index-banner .i-b-text{width:450px;padding:50px 0 8px 0;}
 .index-banner .i-b-text p{line-height:25px;color:#2f2a24;font-size:14px;text-indent:2em;}
 
@@ -11,7 +11,7 @@ body{background-color:#F9F0D9;}
 .index-news .news{width:352px;}
 .index-news .news-list{width:352px;;height:297px;background:url(images/index-news-item.png) no-repeat 0 0;}
 .index-news .news-title{line-height:38px;}
-.index-news .news-title h3{display:inline;float:left;font-weight:700;font-size:24px;color:#9e7cb7;}
+.index-news .news-title h3{display:inline;float:left;font-weight:700;font-size:24px;color:#FA547A;}
 .index-news .news-title h3 span{margin-right:3px;font-size:30px;}
 .index-news .news-title .more{float:right;margin-right:12px;font-size:12px;color:#626163;}
 .index-news .news-list ul{padding-top:20px;}
