@@ -2,12 +2,25 @@ var jcbys = jcbys || {};
 jcbys.index = {
 	init:function(){
 		this.initDatePicker();
+		this.intTab();
 	},
 	initDatePicker:function(){
 		$( ".datepicker" ).datepicker({
 			inline: true,
 			showOtherMonths: true,
 			showMonthAfterYear:1
+		});
+	},
+	intTab:function(){
+		$(".ic-box").each(function(){
+			var _box = $(this),
+				_tabitem = _box.find(".tab").find("li"),
+				_tabbox = _box.find(".ic-list");
+
+			_tabitem.on("click",function(){
+				$(this).addClass("cur").siblings().removeClass("cur");
+				_tabbox.hide().eq($(this).index()).show();
+			});
 		});
 	},
 	addToFavorite:function() {
